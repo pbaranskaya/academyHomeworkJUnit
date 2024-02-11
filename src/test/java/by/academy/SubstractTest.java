@@ -3,10 +3,10 @@ package by.academy;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class SubstractTest {
+public class SubstractTest extends Assert{
 
     @Test
     public void testSubstract() {
-        Assert.assertEquals(1, Calculator.substract(2, 1));
+        assertEquals(1, Calculator.substract(2, 1));
     }
 }

@@ -3,10 +3,10 @@ package by.academy;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class MultiplyTest {
+public class MultiplyTest extends Assert{
 
     @Test
     public void testMultiply() {
-        Assert.assertEquals(2, Calculator.multiply(2, 1));
+        assertEquals(2, Calculator.multiply(2, 1));
     }
 }
